@@ -20,6 +20,10 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+  data:
+    rest:
+      default-page-size: 3
 
 
+#data-rest
 
